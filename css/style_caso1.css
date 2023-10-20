@@ -1,0 +1,385 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;700&display=swap');
+/* font-family: 'Noto Serif JP', serif; */
+@import url('https://fonts.googleapis.com/css2?family=Cardo:wght@400;700&family=Noto+Serif+JP:wght@400;700&display=swap');
+/* font-family: 'Cardo', serif; */
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Noto+Sans+HK:wght@300&display=swap');
+/* font-family: 'Noto Sans KR', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+/* font-family: 'Nanum Gothic', sans-serif; */
+
+body{
+    background-color: #35B035;
+}
+/* Search */
+
+.header_search{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-bottom: 1rem;
+    }
+
+.voltar{
+    padding: 1rem;
+    width: 50px;
+    height: 50px;
+}
+
+.main_search{
+    display: flex;
+    flex-direction: column;
+}
+
+.linha_search {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 1rem;
+    align-items: flex-end;
+}
+
+.titulo_search{
+    font-size: x-large;
+    margin-top: 1rem;
+    font-family: 'Noto Serif JP', 'Cardo', serif;
+}
+
+.titulo_search_p{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.pequena_search{   
+    height: 3rem;
+    width: 3rem;
+}
+
+.medio_search{
+    height: 4rem;
+    width: 4rem;
+}
+
+.grande_search{
+    width: 5rem;
+    height: 6rem;
+}
+
+.descricao_search{
+    transform: translate(7%);
+    font-family: 'Noto Sans KR', 'Nanum Gothic',sans-serif;
+}
+
+.tam_tipo_search{
+    width: 5rem;
+    height: 5rem;
+}
+
+.box_search{
+    border: 1rem none black;
+    width: 25%;
+
+}
+
+.search_bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    
+}
+
+.filtro_tipo_search{
+    margin-top: 2rem;
+}
+
+.filtro_search{
+    margin-top: 2rem;
+}
+
+.desc_tipo_search{
+    transform: translate(20%);
+    font-family: 'Noto Sans KR', 'Nanum Gothic',sans-serif;
+}
+
+/* Plants */
+
+.selecionar_plants{
+    height: 3rem;
+    width: 3rem;
+    border-radius: 100%;
+}
+
+.section_plants{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-top: 0.3rem solid black;
+    align-items: center;
+    height: 5.5rem;
+    background-color: #A1521D;
+}
+
+.voltar{
+    padding: 1rem;
+    width: 50px;
+    height: 50px;
+}
+
+.portfolio{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: 0.3rem solid black;
+    margin: 1rem;
+    padding: 1rem;
+    align-items: center;
+    width: 70%;
+    background-color:  #A1A1A1;
+}
+
+.plant_icon{
+    height: 7em;
+    width: 7rem;
+    border: 0.2rem solid black;
+    padding: 0.3rem;
+    border-radius: 15%;
+    background-color:#A1A1A1;
+    margin-bottom: 2%;
+    
+}
+
+.cientifico{
+    font-style: italic;
+    font-family: 'Noto Sans KR', 'Nanum Gothic',sans-serif;
+    margin-top: 3%;
+}
+
+.desc_plants{
+    margin-top: 40%;
+    font-family: 'Noto Sans KR', 'Nanum Gothic',sans-serif;
+}
+.a_plants{
+    text-decoration: none;
+    color: black;
+    font-family: 'Noto Sans KR', 'Nanum Gothic',sans-serif;
+}
+.plant_name{
+    font-size: larger;
+    font-family: 'Noto Serif JP', 'Cardo', serif;
+}
+
+/* Portfolio */
+
+.main_portfolio{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+.header_portfolio{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.botao_diagnosis{
+    position: fixed;
+    bottom: 15%;
+    right: 1%;
+}
+.plant_icon_portfolio{
+    height: 8rem;
+    width: 8rem;
+    margin-left: 3%;
+    border: 0.2rem solid black;
+    padding: 0.2rem;
+    border-radius: 15%;
+    background-color:#A1A1A1 ;
+}
+
+.conjunto_portfolio{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.li_portfolio{
+    margin-left: 1rem;
+}
+
+.titulo_portfolio{
+    font-size: 2.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Noto Serif JP', 'Cardo', serif;
+}
+
+.h2_potfolio{
+    font-size: x-large;
+    font-family: 'Noto Serif JP', 'Cardo', serif;
+}
+
+.descricao_portfolio{
+    margin-top: 2rem;
+    font-family: 'Noto Sans KR', 'Nanum Gothic',sans-serif;
+
+}
+
+.regar{
+    font-family: 'Noto Sans KR', 'Nanum Gothic',sans-serif;
+}
+
+.img_diagnosis{
+    width: 4rem;
+    height: 4rem;
+}
+
+/* Diagnosis */
+
+.main_diagnosis{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.section_diagnosis{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-bottom: 0.2rem solid black;
+    margin-bottom: 2%;
+
+}
+
+.h1_diagnosis{
+    font-size: x-large;
+    font-family: 'Noto Serif JP', 'Cardo', serif;
+}
+
+.plant_icon_diagnosis{
+    height: 7rem;
+    width: 7rem;
+}
+
+.plantas_img_diagnosis{
+    margin-top: 1rem;
+}
+
+/* Home */
+
+.header_index{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem
+}
+
+.img50x50{
+    width: 50px;
+    height: auto;
+    border-radius: 100%;
+}
+
+.index_html{
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    align-items: center;
+}
+
+.titulo_index{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: large;
+}
+
+.img_index{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.section_index{
+    border: 0.2rem solid black;
+    height: 13rem;
+    width: 17rem;
+    position: relative;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    background-color:  #007D00;
+}
+
+.destaques{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.section_index_2{
+    border: 0.2rem solid black;
+    height: 13rem;
+    width: 17rem;
+    position: relative;
+    background-color:  #007D00;
+}
+
+.destaque_titulo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 0.2rem solid black ;
+    padding: 1rem;
+    background-color: #A1A1A1;
+    font-family: 'Noto Serif JP', 'Cardo', serif;
+}
+
+.img_medal{
+    width:5rem;
+    height: auto;
+    position: absolute;
+    top: -10%;
+    right: -13%;
+}
+.plant_index_img{
+    width: 8.5rem;
+    height: auto;
+    margin-top: 0.2rem;
+}
+
+.img_calendar{
+    width:3rem;
+    height: auto;
+    position: absolute;
+    top: -10%;
+    right: -9%;
+}
+
+.sun_img{
+    width: 8rem;
+}
+.data{
+    font-family: 'Noto Serif JP', 'Cardo', serif;
+    font-weight:bolder
+}
+
+.info{
+    font-family: 'Noto Sans KR', 'Nanum Gothic', sans-serif;
+}
