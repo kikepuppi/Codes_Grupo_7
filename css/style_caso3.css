@@ -76,8 +76,10 @@
 
 .calendario{
     width: 100%;
-    padding: 0.5rem 0rem;
+    padding: 1rem 1rem;
     background-color: #A1A1A1;
+    margin-left: -1rem;
+    border: 0.2rem solid black;
 }
 
 /* ----------------------------------------- */
