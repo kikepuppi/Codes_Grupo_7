@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;700&display=swap');
+
 .linha{
     display: flex;
     flex-direction: row;
@@ -15,7 +17,7 @@
 
 .footer_alinhamento{
     justify-content: space-around;
-    background-color: lightgreen;
+    background-color: #A1521D;
     align-items: center;
 }
 
@@ -24,6 +26,9 @@
     width: 50px;
     height: 50px;
 }
+
+/* ----------------------------------------- */
+/* Calendar Screen */
 
 .calendario_e_botao{
     display: flex;
@@ -39,7 +44,7 @@
     align-items: center;
     justify-content: center;
     width: 80%;
-    background-color: lightgray;
+    background-color: #A1A1A1;
     margin: 2rem;
 }
 
@@ -54,20 +59,24 @@
 }
 
 .titulo_calendario{
-    font-size: 30px;
+    font-size: 31px;
     font-weight: bold;
     padding: 3rem;
-    margin-top: -5.3rem;
+    margin-top: -5.1rem;
+    font-family: 'Noto Serif JP', serif;
 }
 
 .calendario{
     width: 100%;
     padding: 0.5rem 0rem;
-    background-color: lightgray;
+    background-color: #A1A1A1;
 }
 
+/* ----------------------------------------- */
+
 body{
-    background-color: rgb(46, 203, 46);
+    background-color: #35B035;
+    font-family: 'Noto Serif JP', serif;
 }
 
 footer{
@@ -85,21 +94,23 @@ footer{
 
 .footer_img{
     width: 70px;
-    height: 70px;
+    height: auto;
+    background-color: transparent;
 }
 
 .espacado{
     justify-content: space-evenly;
 }
 
+/* ----------------------------------------- */
+/* Routine Screen */
+
 .titulo_rotina{
     font-size: 30px;
     font-weight: bold;
     padding: 1rem;
     margin-bottom: -0.5rem;
-    background-color: rgb(39, 128, 39);
-    border-top: 0.3rem solid rgb(0, 71, 0);
-    border-bottom: 0.3rem solid rgb(0, 71, 0);
+    background-color: #007D00;
 }
 
 .rotina{
@@ -131,7 +142,7 @@ footer{
 .rotina_botoes{
     display: grid;
     place-items: center;
-    background-color: gray;
+    background-color: #A1A1A1;
     width: 50px;
     height: 50px;
     font-size: 20px;
@@ -144,20 +155,23 @@ footer{
     height: 50px;
 }
 
+/* ----------------------------------------- */
+/* Forms Screen */
+
 .titulo{
     font-size: 30px;
     font-weight: bold;
 }
 
 .titulo_form_nome{
-    font-size: 20px;
+    font-size: 15px;
     font-weight: bold;
     padding: 1rem;
     transform: translate(-150%);
 }
 
 .titulo_form_desc{
-    font-size: 20px;
+    font-size: 15px;
     font-weight: bold;
     padding: 1rem;
     transform: translate(-110%);
@@ -184,9 +198,9 @@ footer{
 }
 
 .flutuante_2{
-    position: absolute;
-    bottom: -50px;
-    right: 10px;
+    position: fixed;
+    bottom: 20%;
+    right: 5%;
 }
 
 .form_time_box{
@@ -195,9 +209,12 @@ footer{
     align-items: center;
     justify-content: space-around;
     width: 100%;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: bold;
 }
+
+/* --------------------------------------------- */
+/* Tasks Screen */
 
 .task_main{
     align-items: center;
@@ -211,6 +228,7 @@ footer{
     align-items: center;
     justify-content: flex-start;
     width: 70%;
+    margin-left: -20%;
 }
 
 .titulo_task_regar{
@@ -241,4 +259,11 @@ footer{
 
 .underline{
     border-bottom: 0.2rem solid black;
+}
+
+/* ----------------------------------------- */
+
+main{
+    overflow-y: hidden;
+    overflow-x: hidden;
 }
