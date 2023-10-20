@@ -3,35 +3,56 @@
   <head>
     <meta charset="utf-8" />
     <title>Perfil</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style_caso3.css">
   </head>
   <body>
-    <header>
-      <a href="index.html"><img src="https://fakeimg.pl/50x50" alt="Go Back"/></a>
+    <header class="linha">
+      <a href="index.html"><img class="back_button" src="img/Voltar.png" alt="Go Back" /></a>
       <!-- Go back button-->
-      <h1>Perfil</h1>
     </header>
-      <figure>
-        <a><img src="img/menu.png" alt="Menu" /></a>
-        <!-- Menu Image -->
-        <a><img src="img/profile.png" alt="Go to profile" /></a>
+
+    <main class="coluna main_profile">
+
+      <section>
+        <img class="img_profile box" src="img/perfil.png" alt="Go to profile" />
         <!-- Profile Image -->
-        <h1>Olá, </h1>
-        <h2>Nome Sobrenome!</h2>
-        <h3>email:
-            usuário:</h3>
-        <a><img src="img/streak.png" alt="Days keeping up with the calender" /></a>
-    
-        <a><img src="img/leaf.png" alt="Number of added plants" /></a>
-      </figure>
-    <footer>
-      <a href="index.html"><img src="img/house.png" alt="Go to inicial page"/></a>
-      <!-- House image -->
-      <a href="portfolio.html"><img src="img/leaf.png" alt="Go to your portifolio " /></a>
-      <!-- Leaf Image -->
-      <a href="search.html"><img src="img/search.png" alt="Go to Search menu" /></a>
-      <!-- Search Image -->
-      <a href="calendar.html"><img src="img/calendar.png" alt="Go to calendar"/></a>
-      <!-- Calendar Image -->
+        <h1 class="text_profile">André Santana</h1>
+      </section>
+
+      <ul class="coluna info_profile">
+
+        <li class="linha elemento_profile">
+          <img class="img_70x70" src="img/streak.png" alt="Days keeping up with the calender">
+          <section class="coluna section_profile">
+            <h2 class="h2_profile_1">33 dias</h2>
+            <h2 class="h2_profile_2">Cuidando das suas plantas</h2>
+          </section>
+        </li>
+
+
+        <li class="linha elemento_profile">
+          <img class="img_70x70" src="img/planta1.png" alt="Number of added plants">
+          <section class="coluna section_profile">
+            <h2 class="h2_profile_1">15 plantas</h2>
+            <h2 class="h2_profile_2">Atualmente em seu portifólio</h2>
+          </section>
+        </li>
+
+      </ul>
+
+    </main>
+
+      <footer class="linha footer_alinhamento">
+        <a href="index.html"><img class="footer_img" src="img/house.png" alt="Go to inicial page" /></a>
+        <!-- House image -->
+        <a href="portfolio.html"><img class="footer_img" src="img/leaf.png" alt="Go to your portifolio " /></a>
+        <!-- Leaf Image -->
+        <a href="search.html"><img class="footer_img" src="img/search.png" alt="Go to Search menu" /></a>
+        <!-- Search Image -->
+        <a href="calendar.html"><img class="footer_img" src="img/calendar.png" alt="Go to calendar" /></a>
+        <!-- Calendar Image -->
     </footer>
   </body>
 </html>

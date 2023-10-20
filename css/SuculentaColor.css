@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;700&display=swap');
+/* font-family: 'Noto Serif JP', serif; */
+@import url('https://fonts.googleapis.com/css2?family=Cardo:wght@400;700&family=Noto+Serif+JP:wght@400;700&display=swap');
+/* font-family: 'Cardo', serif; */
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Noto+Sans+HK:wght@300&display=swap');
+/* font-family: 'Noto Sans KR', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+/* font-family: 'Nanum Gothic', sans-serif; */
+
+
+body{
+    background-color: #35B035;
+    font-family: 'Noto Serif JP', 'Cardo', serif;
+
+}
+.voltar{
+    padding:1rem;
+    width: 50px;
+    height: 50px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2rem;
+
+}
+.titulo{
+    font-size: 45px;
+    margin-top: 1rem;
+}
+
+section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left:1rem;
+    margin-bottom: 3rem;
+    font-size: 15px;
+}
+
+
+.firstQ{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 18px;
+    margin-top: -2rem;
+}
+.firstQedit{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 0.2rem;
+
+}
+.texts{
+    margin-left:2rem;
+    font-size: 22px;
+    padding-right: 0.3rem;
+    font-family: 'Noto Sans KR', 'Nanum Gothic', sans-serif;
+
+}
+
+
+
+
+.coluna {
+    display: flex;
+    flex-direction: column;
+}
+
+.linha {
+    display: flex;
+    flex-direction: row;
+}
+
+.editimgs{
+    padding:0.5rem;
+    border: 0.2rem;
+    width: 120px;
+    height: auto;
+    background-color: white;
+    border-radius: 15%;
+}
+
+
+
+
+
+
+
+
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-top: 0.3rem solid black;
+    align-items: center;
+    height: 5.5rem;
+    background-color: #A1521D;
+
+}
+.footer_img{
+    width: 70px;
+    height: 70px;
+}
