@@ -1,47 +1,55 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portifolio</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Porfolio</title>
+    <link rel="stylesheet" href="Css/reset.css">
+    <link rel="stylesheet" href="Css/style_caso1.css">
 </head>
 
 <body>
-    <header>
-        <a href="index.html"><img src="https://fakeimg.pl/50x50" alt="Go Back" /></a>
-        <!-- Go back button-->
-        <h1>Meu Portifolio</h1>
+    <header class="header_portfolio">
+        <a href="index.html"><img src="img/Voltar.png" alt="Go Back" class="voltar" /></a>
+        <!-- Go back button -->
+        <h1 class="titulo_portfolio">Meu Portfólio</h1>
     </header>
-    <main>
-        <section>
-            <h2>Bonsai</h2>
-            <a><img src="https://fakeimg.pl/200x60" alt="Go to bonsai's page" /></a>
-            <!-- Bonsai image-->
-
-            <p>
-                bonsai
-                dias até regar: Y
-                desc:~~~~~~
-            </p>
-            <!-- bonsai info-->
-
+    <main class="main_portfolio">
+        <section class="conjunto_portfolio">
+            <a><img src="img/bonsai.png" class="plant_icon_portfolio" alt="" /></a>
+            <ol>
+                <li class="li_portfolio">
+                    <h2 class="h2_potfolio">Bonsai</h2>
+                    <p class="regar">Dias até regar: 27</p>
+                    <p class="descricao_portfolio">breve descrição</p>
+                </li>
+            </ol>
         </section>
-        <section>
-            <h3>Suculenta</h3>
-            <a href="Suculenta.html"><img src="https://fakeimg.pl/200x60" alt="go to suculenta's page" /></a>
-            <!-- suculenta image-->
 
-            <p>
-                Suculenta
-                dias até regar: X
-                desc:~~~~~~
-            </p>
-            <!-- suculenta's info-->
-
+        <section class="conjunto_portfolio">
+            <a><img src="img/suculenta.png" class="plant_icon_portfolio" alt="" /></a>
+            <ol>
+                <li class="li_portfolio">
+                    <h2 class="h2_potfolio">Suculenta</h2>
+                    <p class="regar">Dias até regar: 3</p>
+                    <p class="descricao_portfolio">breve descrição</p>
+                </li>
+            </ol>
         </section>
-        <a href="diagnosis.html"><img src="https://fakeimg.pl/60x60" alt="go to suculenta's page" /></a>
+
+        <section class="conjunto_portfolio">
+            <a><img src="img/orchid1.png" class="plant_icon_portfolio" alt="" /></a>
+            <ol>
+                <li class="li_portfolio">
+                    <h2 class="h2_potfolio">Orquidea</h2>
+                    <p class="regar">Dias até regar: 1</p>
+                    <p class="descricao_portfolio">breve descrição</p>
+                </li>
+            </ol>
+        </section>
+
+        <a href="diagnosis.html" class="botao_diagnosis"><img src="img/diagnosis.png" class="img_diagnosis" alt="go to suculenta's page" /></a>
         <!-- Go to diagnosis screen -->
     </main>
     <footer>

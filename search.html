@@ -2,28 +2,67 @@
 <html lang="pt-BR">
 
 <head>
-    <meta charset="utf-8" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pesquisa</title>
+    <link rel="stylesheet" href="Css/reset.css">
+    <link rel="stylesheet" href="Css/style_caso1.css">
 </head>
 
 <body>
-    <header>
-        <a href="index.html"><img src="https://fakeimg.pl/50x50" alt="Go Back" /></a>
+    <header class="header_search">
+        <a href="index.html"><img src="img/Voltar.png" alt="Go Back" class="voltar" /></a>
         <!-- Go back button -->
     </header>
-    <main>
-        <h1>Pesquisa</h1>
-        <form id="form" action="plants.html">
-            <input type="search" id="query" name="q" placeholder="Search..."
-                aria-label="Search through the content of the site">
-            <button type="submit">Search</button>
-        </form>
+    <main class="main_search">
+        <div class="search_bar">
+            <form id="form" action="plants.html" >
+                <input type="search" id="query" name="q" placeholder="Search..."
+                    aria-label="Search through the content of the site">
+                <button type="submit">Search</button>
+            </form>
+        </div>
+
         <!--Search Bar-->
-        <h2>PORTE</h2>
-        <a><img src="https://fakeimg.pl/200x60" alt=""></a>
+        <section class="filtro_search">
+            <ol>
+                <li class="titulo_search_p"><h2 class="titulo_search">PORTE</h2></li>
+            </ol>
+            <ol class="linha_search">
+                <li class="box_search">
+                    <img src="img/planta1.png" class="pequena_search" alt="">
+                    <p class="descricao_search">Pequeno</p>
+                </li>
+                <li>
+                    <img src="img/planta1.png" class="medio_search" alt="">
+                    <p class="descricao_search">Médio</p>
+                </li>
+                <li>
+                    <img src="img/planta1.png" class="grande_search" alt="">
+                    <p class="descricao_search">Grande</p>
+                </li>
+            </ol>
+        </section>
         <!--Plant size filter-->
-        <h2>TIPO</h2>
-        <a><img src="https://fakeimg.pl/200x60" alt=""></a>
+        <section >
+            <ol>
+                <li class="titulo_search_p"><h2 class="titulo_search">TIPO</h2></li>
+            </ol>
+            <ol class="linha_search filtro_tipo_search">
+                <li>
+                    <img src="img/morango.png" class="tam_tipo_search" alt="">
+                    <p class="desc_tipo_search">Alimenticia</p>
+                </li>
+                <li>
+                    <img src="img/cacto.png" class="tam_tipo_search" alt="">
+                    <p class="desc_tipo_search">Decorativa</p>
+                </li>
+                <li>
+                    <img src="img/planta_medicinal.png"  class="tam_tipo_search" alt="">
+                    <p class="desc_tipo_search">Medicinal</p>
+                </li>
+            </ol>
+        </section>
         <!--Plant type filter-->
     </main>
     <footer>
