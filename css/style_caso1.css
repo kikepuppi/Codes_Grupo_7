@@ -132,6 +132,12 @@ footer{
     background-color: #A1521D;
 }
 
+.footer_img{
+    width: 70px;
+    height: auto;
+    background-color: transparent;
+}
+
 .voltar{
     padding: 1rem;
     width: 50px;
