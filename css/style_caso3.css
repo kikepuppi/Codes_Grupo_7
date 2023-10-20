@@ -1,4 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;700&display=swap');
+/* font-family: 'Noto Serif JP', serif; */
+@import url('https://fonts.googleapis.com/css2?family=Cardo:wght@400;700&family=Noto+Serif+JP:wght@400;700&display=swap');
+/* font-family: 'Cardo', serif; */
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Noto+Sans+HK:wght@300&display=swap');
+/* font-family: 'Noto Sans KR', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+/* font-family: 'Nanum Gothic', sans-serif; */
 
 .linha{
     display: flex;
@@ -46,6 +53,7 @@
     width: 80%;
     background-color: #A1A1A1;
     margin: 2rem;
+    font-family: 'Noto Sans KR', 'Nanum Gothic', sans-serif;
 }
 
 .transparent{
@@ -63,7 +71,7 @@
     font-weight: bold;
     padding: 3rem;
     margin-top: -5.1rem;
-    font-family: 'Noto Serif JP', serif;
+    font-family: 'Noto Serif JP', 'Cardo', serif;
 }
 
 .calendario{
@@ -76,7 +84,6 @@
 
 body{
     background-color: #35B035;
-    font-family: 'Noto Serif JP', serif;
 }
 
 footer{
@@ -111,13 +118,15 @@ footer{
     padding: 1rem;
     margin-bottom: -0.5rem;
     background-color: #007D00;
+    font-family: 'Noto Serif JP', 'Cardo', serif;
 }
 
 .rotina{
     align-items: center;
     justify-content: space-evenly;
     height: 22.9rem;
-    position: relative
+    position: relative;
+    font-family: 'Noto Sans KR', 'Nanum Gothic', sans-serif;
 }
 
 .rotina_linhas{
@@ -148,6 +157,7 @@ footer{
     font-size: 20px;
     font-weight: bold;
     color: black;
+    font-family: 'Noto Serif JP', 'Cardo', serif;
 }
 
 .img_50x50{
@@ -161,6 +171,7 @@ footer{
 .titulo{
     font-size: 30px;
     font-weight: bold;
+    font-family: 'Noto Serif JP', 'Cardo', serif;
 }
 
 .titulo_form_nome{
@@ -168,6 +179,7 @@ footer{
     font-weight: bold;
     padding: 1rem;
     transform: translate(-150%);
+    font-family: 'Noto Serif JP', 'Cardo', serif;
 }
 
 .titulo_form_desc{
@@ -175,6 +187,7 @@ footer{
     font-weight: bold;
     padding: 1rem;
     transform: translate(-110%);
+    font-family: 'Noto Serif JP', 'Cardo', serif;
 }
 
 .new_event_main{
@@ -211,6 +224,7 @@ footer{
     width: 100%;
     font-size: 15px;
     font-weight: bold;
+    font-family: 'Noto Serif JP', 'Cardo', serif;
 }
 
 /* --------------------------------------------- */
@@ -229,6 +243,7 @@ footer{
     justify-content: flex-start;
     width: 70%;
     margin-left: -20%;
+    font-family: 'Noto Serif JP', 'Cardo', serif;
 }
 
 .titulo_task_regar{
@@ -250,6 +265,7 @@ footer{
     justify-content: space-evenly;
     width: 90%;
     font-size: 20px;
+    font-family: 'Noto Sans KR', 'Nanum Gothic', sans-serif;
 }
 
 .img_titulo{
@@ -266,4 +282,8 @@ footer{
 main{
     overflow-y: hidden;
     overflow-x: hidden;
+}
+
+input{
+    font-family: 'Noto Sans KR', 'Nanum Gothic', sans-serif;
 }
