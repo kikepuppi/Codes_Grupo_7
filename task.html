@@ -4,47 +4,64 @@
 <head>
   <meta charset="utf-8" />
   <title>Hoje</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style_caso3.css">
 </head>
 
 <body>
+
   <header>
-    <a href="calendar.html"><img src="https://fakeimg.pl/50x50" alt="Go Back" /></a>
+    <a href="calendar.html"><img class="back_button" src="img/Voltar.png" alt="Go Back" /></a>
     <!-- Go back button-->
   </header>
-  <main>
-    <h1>DD/MM/YYYY</h1>
-    <section>
-      <a><img src="img/watering_can.png" alt="Plants to water" /></a>
+
+  <main class="coluna task_main">
+    <h1 class="titulo">DD/MM/YYYY</h1>
+    <section class="linha titulo_secao_task">
+      <a><img class="img_titulo" src="img/watering_can.png" alt="Plants to water" /></a>
       <!--watering can image-->
-      <h2> Plantas para regar: </h2>
-      <a><img src="img/succulent.png" alt="Succulent to water" /></a>
+      <h2 class="titulo_task_regar"> Regar: </h2>
+    </section>
+
+    <section class="linha info_task ">
+      <a><img class="img_50x50" src="img/succulent.png" alt="Succulent to water" /></a>
       <!--succulent image-->
       <h2>Suculenta: HH:MM </h2>
-      <a><img src="img/bonsai.png" alt="Bonsai to water" /></a>
+    </section>
+
+    <section class="linha info_task">
+      <a><img class="img_50x50" src="img/bonsai.png" alt="Bonsai to water" /></a>
       <!--bonsai image-->
       <h2>Bonsai: HH:MM</h2>
-      <a><img src="img/sun.png" alt="Exposition to the sun" /></a>
+    </section>
+
+    <section class="linha titulo_secao_task ">
+      <a><img class="img_titulo" src="img/sun.png" alt="Exposition to the sun" /></a>
       <!--sun image-->
-      <!-- Plants to water today section -->
+      <h2 class="titulo_task_espaco">Espaço:</h2>
     </section>
-    <section>
-      <h2>Espaço:</h2>
-      <a><img src="img/succulent.png" alt="Succulent to water" /></a>
+
+    <section class="linha info_task">
+      <a><img class="img_50x50" src="img/succulent.png" alt="Succulent to water" /></a>
       <!-- succulent image-->
-      <h2>Suculenta: claro</h2>
-      <!-- Space that plant needs section-->
+      <h2>Suculenta: Claro</h2>
+      <!-- Space that plant needs-->
     </section>
+
   </main>
-  <footer>
-    <a href="index.html"><img src="img/house.png" alt="Go to inicial page" /></a>
-    <!-- House Button -->
-    <a href="portfolio.html"><img src="img/leaf.png" alt="Go to your plants " /></a>
-    <!-- Leaf Button -->
-    <a href="search.html"><img src="img/search.png" alt="Go to Search menu" /></a>
-    <!-- Search Button -->
-    <a href="calendar.html"><img src="img/calendar.png" alt="Go to calendar" /></a>
-    <!-- Calendar Button -->
+
+  <footer class="linha footer_alinhamento">
+    <a href="index.html"><img class="footer_img" src="img/house.png" alt="Go to inicial page" /></a>
+    <!-- House image -->
+    <a href="portfolio.html"><img class="footer_img" src="img/leaf.png" alt="Go to your portifolio " /></a>
+    <!-- Leaf Image -->
+    <a href="search.html"><img class="footer_img" src="img/search.png" alt="Go to Search menu" /></a>
+    <!-- Search Image -->
+    <a href="calendar.html"><img class="footer_img" src="img/calendar.png" alt="Go to calendar" /></a>
+    <!-- Calendar Image -->
   </footer>
+
 </body>
 
 </html>
