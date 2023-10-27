@@ -52,7 +52,7 @@
     justify-content: center;
     width: 80%;
     background-color: #A1A1A1;
-    margin: 2rem;
+    margin: 1rem;
     font-family: 'Noto Sans KR', 'Nanum Gothic', sans-serif;
 }
 
@@ -80,6 +80,7 @@
     background-color: #A1A1A1;
     margin-left: -1rem;
     border: 0.2rem solid black;
+    border-radius: 10%;
 }
 
 /* ----------------------------------------- */
@@ -160,6 +161,7 @@ footer{
     font-weight: bold;
     color: black;
     font-family: 'Noto Serif JP', 'Cardo', serif;
+    border-radius: 20%;
 }
 
 .img_50x50{
@@ -223,7 +225,7 @@ footer{
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    width: 100%;
+    width: 90%;
     font-size: 15px;
     font-weight: bold;
     font-family: 'Noto Serif JP', 'Cardo', serif;
@@ -246,6 +248,7 @@ footer{
     width: 70%;
     margin-left: -20%;
     font-family: 'Noto Serif JP', 'Cardo', serif;
+    margin-bottom: -5%;
 }
 
 .titulo_task_regar{
