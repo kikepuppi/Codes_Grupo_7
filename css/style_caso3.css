@@ -69,18 +69,19 @@
 .titulo_calendario{
     font-size: 31px;
     font-weight: bold;
-    padding: 3rem;
+    padding-left: 19%;
+    padding-top: 15%;
+    padding-bottom: 5%;
     margin-top: -5.1rem;
     font-family: 'Noto Serif JP', 'Cardo', serif;
 }
 
 .calendario{
-    width: 100%;
-    padding: 1rem 1rem;
-    background-color: #A1A1A1;
-    margin-left: -1rem;
+    width: 110%;
+    background-color: white;
     border: 0.2rem solid black;
-    border-radius: 10%;
+    margin-top: -5%;
+    margin-left: -5%;
 }
 
 /* ----------------------------------------- */
